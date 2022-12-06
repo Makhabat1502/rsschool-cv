@@ -10,9 +10,9 @@
 
 **Email:** makhabat.berdibekova@gmail.com
 
-[LinkedIn] ("https://www.linkedin.com/in/makhabat-berdibekova-179225239/")
+[https://www.linkedin.com/in/makhabat-berdibekova-179225239/] ("LinkedIn")
 
-[GitHub] ("https://github.com/Makhabat1502")
+[https://github.com/Makhabat1502] ("GitHub")
 
 ***
 ### Briefly about myself 
