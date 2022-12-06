@@ -1,1 +1,1 @@
-# rsschool-cv
+https://makhabat1502.github.io/rsschool-cv/cv
