@@ -6,10 +6,10 @@
 ***
 ### Contact information:
 
-**Phone:** +996 777 275 939
-**Email:** makhabat.berdibekova@gmail.com
-[LinkedIn] ("https://www.linkedin.com/in/makhabat-berdibekova-179225239/")
-[GitHub] ("https://github.com/Makhabat1502")
++**Phone:** +996 777 275 939
++**Email:** makhabat.berdibekova@gmail.com
++[LinkedIn] ("https://www.linkedin.com/in/makhabat-berdibekova-179225239/")
++[GitHub] ("https://github.com/Makhabat1502")
 
 ***
 ### Briefly about myself 
