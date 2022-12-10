@@ -10,55 +10,64 @@
 <body>
     <div class="container">
         <header class="header">
-            <div class="photo">
-                <img src="/rsschool-cv/img/my-photo.jpg" alt="my-photo">
-                <h1>Makhabat Berdibekova</h1>
-            </div>
-            <div class="contacts">
-                <ul class="contact-info">
-                    <li class="contact-info-item">
-                        Bishkek, Kyrgyzstan
+            <nav class="nav">
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a  class="menu-link home" href="#photo">Home</a>
                     </li>
-                    <li class="contact-info-item">
-                        <a href="mailto:makhabat.berdibekova.kk@gmail.com">Email</a>
+                    <li class="menu-item">
+                        <a  class="menu-link" href="#about">About</a>
                     </li>
-                    <li class="contact-info-item">
-                        <a href="tel:+996777275939">Phone</a>
+                    <li class="menu-item">
+                        <a  class="menu-link" href="#skills">Skills</a>
                     </li>
-                    <li class="contact-info-item">
-                        <a href="https://www.linkedin.com/in/makhabat-berdibekova-179225239/">LinkedIn</a>
+                    <li class="menu-item">
+                        <a  class="menu-link" href="#projects">Projects</a>
                     </li>
-                    <li class="contact-info-item">
-                        <a href="https://github.com/Makhabat1502">GitHub</a>
+                    <li class="menu-item">
+                        <a  class="menu-link" href="#code-example">Code example</a>
+                    </li>
+                    <li class="menu-item">
+                        <a  class="menu-link" href="#contacts">Contacts</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </header>
         <main>
-            <section class="main-info">
+            <div id="photo" class="photo">
+                <img src="/rsschool-cv/img/my-photo.jpg" alt="my-photo">
+                <h1>Makhabat Berdibekova</h1>
+                <h3>Frontend developer</h3>
+            </div>
+            <section id="about" class="about">
                 <div class="container">
-                    <h2 class="section-subtitle">
+                    <h2 class="section-title">
                         Summary
                     </h2>
-                    <p class="section-descr">
+                    <p class="about-descr">
                         I am a young developer who is looking for new projects and new people to gain new skills. My passion is Frontend development. I specialize in JavaScript ES6 and React.js. Familiar with Frontend tools and libraries such as React, UI/UX, Bootstrap, JQuery, Figma and etc. My main goals are acquiring new skills and professional development. I am hard-working person and quick-learner. Every created project is my motivation. I am not scare of new tasks and always finish anything I start.
                     </p>
                 </div>
+            </section>
+            <section id="skills" class="skills">
                 <div class="container">
-                    <h2 class="section-subtitle">
+                    <h2 class="section-title">
                         Skills
                     </h2>
-                    <ul class="section-inner">
-                        <li class="section-item">HTML5</li>
-                        <li class="section-item">CSS3</li>
-                        <li class="section-item">JavaScript</li>
-                        <li class="section-item">Git, GitHub</li>
+                    <ul class="skills-inner">
+                        <li class="skill">HTML5</li>
+                        <li class="skill">CSS3</li>
+                        <li class="skill">JavaScript</li>
+                        <li class="skill">Git, GitHub</li>
+                        <li class="skill">Bootstrap</li>
                     </ul>
                 </div>
+            </section>
+            <section id="projects" class="projects">
                 <div class="container">
-                    <h2 class="section-subtitle">Projects</h2>
-                    <ul class="section-inner">
-                        <li class="section-item">
+                    <h2 class="section-title">Projects</h2>
+                    <ul class="projects-inner">
+                        <li class="project-item">
                             <div class="project-item-inner">
                                 <h3 class="project-item-title">CloudBudget</h3>
                                 <p class="project-descr">
@@ -67,7 +76,7 @@
                                 <a href="https://github.com/Makhabat1502/CloudBudget" class="project-link">Preview</a>
                             </div>
                         </li>
-                        <li class="section-item">
+                        <li class="project-item">
                             <div class="project-item-inner">
                                 <h3 class="project-item-title">Loan calculator</h3>
                                 <p class="project-descr">
@@ -78,22 +87,69 @@
                         </li>
                     </ul>
                 </div>
+            </section>
+            <section id="code-example" class="code-example">
                 <div class="container">
-                    <h2 class="section-subtitle">Languages</h2>
-                    <ul class="section-inner">
-                        <li class="section-item">English - intermediate</li>
-                        <li class="section-item">Russian - fluent</li>
-                        <li class="section-item">Kyrgyz - native</li>
+                    <h2 class="section-title">Code example</h2>
+                    <pre class="pre">
+                        <p><code class="code">
+                            function sortMyString(S) {
+                                let even = S.split('').filter((v, i) => i % 2 === 0).join('')
+                                let odd = S.split('').filter((v, i) => i % 2 !== 0).join('')
+                                return even + ' ' + odd
+                            }
+                        </code></p>
+                    </pre>
+                </div>
+            </section>
+            <section id="contacts" class="contacts">
+                <div class="container">
+                    <h2 class="section-title">Contacts</h2>
+                    <div class="contacts-inner">
+                        <ul class="contact-info">
+                            <li class="contact-info-item">
+                                Bishkek, Kyrgyzstan
+                            </li>
+                            <li class="contact-info-item">
+                                <a href="mailto:makhabat.berdibekova.kk@gmail.com">Email</a>
+                            </li>
+                            <li class="contact-info-item">
+                                <a href="tel:+996777275939">Phone</a>
+                            </li>
+                            <li class="contact-info-item">
+                                <a href="https://www.linkedin.com/in/makhabat-berdibekova-179225239/">LinkedIn</a>
+                            </li>
+                            <li class="contact-info-item">
+                                <a href="https://github.com/Makhabat1502">GitHub</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="languages" class="languages">
+                <div class="container">
+                    <h2 class="section-title">Languages</h2>
+                    <ul class="languages-inner">
+                        <li class="language">English - intermediate</li>
+                        <li class="language">Russian - fluent</li>
+                        <li class="language">Kyrgyz - native</li>
                     </ul>
                 </div>
             </section>
+
         </main>
-        <footer>
-            <div class="footer">
+        <footer class="footer">
+            <div class="github">
                 <a class="github-icon" href="https://github.com/Makhabat1502">
                     <img src="./img/iconmonstr-github-1.svg" alt="github icon">
                 </a>
             </div>
+            <div class="rss">
+                <a class="rss-logo" href="https://rs.school/js/">
+                    <img src="./img/rss-logo.png" alt="rss-logo">
+                </a>
+            </div>
+            <div class="date">Created <br> 2022</div>
         </footer>
     </div>
 </body>

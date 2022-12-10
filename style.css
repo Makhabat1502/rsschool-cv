@@ -7,13 +7,12 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif serif;
     font-size: 20px;
-    background-color: aquamarine;
 }
 
 .container {
-    width: 1110px;
+    width: 1140px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -22,27 +21,75 @@ body {
     display: flex;
     flex-direction: row;
     margin: 40px;
+    padding: 35px;
+    background-color: rgb(236, 187, 195);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 0 30px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-item + .menu-item {
+    margin-left: 40px;
+}
+
+.menu-item:hover {
+    font-size: 25px;
+    background-color: black;
+}
+
+.home {
+    margin-left: 65px;
+}
+
+.menu-link {
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .photo {
-    display: flex;
-    width: 200px;
-    height: 250px;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 550px;
+    text-align: center;
 }
 
 img {
     width: 100%;
-    border-radius: 30%;
+}
+
+main {
+    background-color: rgb(252, 232, 235);
 }
 
 h1 {
     margin-left: 20px;
     font-size: 35px;
     font-style: italic;
+    color: palevioletred;
+
 }
 
-.contacts {
-    margin-left: 500px;
+h3 {
+    font-style: italic;
+    color: palevioletred;
+}
+
+.section-title {
+    color: rgb(215, 136, 149);
+    margin: 20px;
+    padding: 15px;
+}
+
+.about-descr {
+    text-align: center; 
 }
 
 .contact-info {
@@ -71,6 +118,12 @@ main {
     display: flex;
 }
 
-.github-icon {
-    width: 30px;
+/* .github-icon {
+    width: 120px;
+} */
+
+.rss {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
 }
